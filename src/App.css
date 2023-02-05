@@ -1,0 +1,100 @@
+.logo{
+  width: 40px;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  font-family: Inter;
+  background-color: #21222A;
+  color: white;
+  height: 90px;
+}
+
+.nav > img{
+  margin-right: 7px;
+  animation:  logorotate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.nav > h3{
+  margin-right: auto;
+  font-size: 25px;
+  color: #61DAFB;
+  font-weight: 700;
+  
+}
+.nav > h4{
+  color: #deebf8;
+  padding: 0px 15px;
+}
+
+
+
+.content{
+  padding: 57px 27px;
+  color: white;
+  background-color: #272831;
+  background-image: url(../src/image/1611079.png);
+  background-repeat: no-repeat;
+  background-position: right 60%;
+
+
+  background-size: 200px;
+  min-height: 100vh;
+}
+.fact-header{
+  margin: 0px;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+.fact-list > li:nth-child(1){
+  padding-block: 9px;
+
+}
+.fact-list > li:nth-child(2){
+  padding-block: 9px;
+}
+.fact-list > li:nth-child(3){
+  padding-block: 9px;
+}
+.fact-list > li:nth-child(4){
+  padding-block: 9px;
+}
+.fact-list > li:nth-child(5){
+  padding-block: 9px;
+}
+
+.fact-list > li::marker{
+  color: #61DAFB;
+  font-size: 1.4rem;
+}
+
+.fade-background-image{
+  margin: 0px;
+  opacity: 5%;
+  float: right;
+  margin-right: auto;
+  width: 200px;
+}
+
+body{
+  margin: 0px;
+  font-family: Inter;
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@keyframes logorotate{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
